@@ -1,0 +1,17 @@
+Software to Install
+
+1. Visual Studio Code: https://code.visualstudio.com/
+2. Python: https://www.python.org/
+3. Pygame: Instructions below
+
+Installing Pygame
+
+1. Click Windows or Start and type CMD
+2. Open up the Command Prompt app
+3. Make sure Python is already installed.
+4. Type into the Command Prompt: pip install pygame
+5. Once it says it is successfully instaled, exit out of the Command Prompt
+
+What We're Going to Make
+
+SPACE INVADERS!
