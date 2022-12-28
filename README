@@ -13,11 +13,18 @@
 1. Click Windows or Start and type CMD
 2. Open up the Command Prompt app
 3. Make sure Python is already installed.
-4. Type into the Command Prompt: pip install pygame
+4. Type into the Command Prompt: pip install pygamere
 5. Hit enter.
-6. Once it says it is successfully instaled, exit out of the Command Prompt
+6. Once it says it is successfully installed, exit out of the Command Prompt
 
 ----------------------------
 - What We're Going to Make -
 ----------------------------
+
 An arcade game!
+
+Our arcade game will have the following:
+
+1. A player to move around with WASD or Arrow Keys
+2. Enemies
+3. Creating a High Score
