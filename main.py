@@ -20,6 +20,7 @@ pygame.display.set_icon(game_icon)
 
 #Setting the player icon
 player_image = game_icon
+
 #Player starting position
 player_x = 250
 player_y = 480
