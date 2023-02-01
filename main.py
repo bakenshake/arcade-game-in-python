@@ -1,6 +1,7 @@
 """
-Space Invaders in Python
+Arcade Game in Python
 Created by: Kati Baker for Code Camp 2023
+Date: 12/29/22
 """
 import pygame #tells our compiler (Visual Studio Code) to pull the pygame library into our Python file
 
@@ -12,7 +13,7 @@ pygame.init()
 screen = pygame.display.set_mode((600, 800))
 
 #Set the title of our game screen
-pygame.display.set_caption("Space Invaders at Code Camp 2023")
+pygame.display.set_caption("Arcade Game at Code Camp 2023")
 
 #Set the icon of our game screen
 game_icon = pygame.image.load("assets/player/playerShip1_orange.png") #what's inside quotations has to match the path of where the image is
@@ -23,7 +24,7 @@ player_image = game_icon
 
 #Player starting position
 player_x = 250
-player_y = 480
+player_y = 500
 
 def player():
     screen.blit(player_image, (player_x, player_y))
@@ -40,8 +41,8 @@ while game_running:
             game_running = False
 
     #Changes background color of the game screen using RGB (red, green, blue)
-    screen.fill((0,0,0))
+    #screen.fill((0,0,0))
 
-    player()
+    #player()
     #We have to tell pygame to update the game screen with the changes that we've made
     pygame.display.update()

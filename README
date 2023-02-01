@@ -13,7 +13,7 @@
 1. Click Windows or Start and type CMD
 2. Open up the Command Prompt app
 3. Make sure Python is already installed.
-4. Type into the Command Prompt: pip install pygamere
+4. Type into the Command Prompt: pip install pygame
 5. Hit enter.
 6. Once it says it is successfully installed, exit out of the Command Prompt
 
