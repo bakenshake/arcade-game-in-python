@@ -69,10 +69,11 @@ while game_running:
     player_x += playerX_change
 
     #Keeps our player in bounds
+    #Note: The exact number will vary depending on the size of the player sprite you chose to use!
     if player_x <= 0:
         player_x = 0
-    elif player_x >= 736:
-        player_x = 736
+    elif player_x >= 715:
+        player_x = 715
 
     player(player_x,player_y)
 
