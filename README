@@ -16,6 +16,7 @@
 4. Type into the Command Prompt: pip install pygame
 5. Hit enter.
 6. Once it says it is successfully installed, exit out of the Command Prompt
+7. If you're having trouble, reference this page: https://www.pygame.org/wiki/GettingStarted
 
 ----------------------------
 - What We're Going to Make -
@@ -27,4 +28,4 @@ Our arcade game will have the following:
 
 1. A player to move around with WASD or Arrow Keys
 2. Enemies
-3. Creating a High Score
+3. A High Score
